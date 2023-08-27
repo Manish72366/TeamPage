@@ -1,0 +1,403 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- Demo styles -->
+    <!-- above sliding bar styling -->
+    <style>
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 400px;
+          height: 400px;
+          object-fit: fill;
+        }
+        .swiper-slide img{
+          display: flex;
+          width: 100%;
+        }
+      </style>
+
+      <!-- below side bar styling -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        body {
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #d0d0d7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper {
+            height: 500px;
+            width: 99vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <title>Team page</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="https://www.sciastra.com/Assets/Images/newsciastra.jpg" alt="SciAstra"></a>
+        <ul class="navbar">
+            <li><a href="#TeamPage"class="active">Team Page</a></li>
+            <li><a href="#Mentors">Meet Your Mentors</a></li>
+            <li><a href="#MentorAdvisors">Mentor And Advisor</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+        </ul>
+        <div class="main">
+            <a href="#" class="user"><i class="ri-user-2-fill"></i>Sign In</a>
+            <a href="#">Register</a>
+            <div class="bx bx-menu" id = "menu-icon"></div>
+        </div>
+    </header>
+
+     <!-- team page -->
+  <section  class = "section" id="TeamPage">
+    <div class="container">
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cont">
+                    <div class="item1">
+                        <img src="https://images.pexels.com/photos/207729/pexels-photo-207729.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Massachusetts Institute of Technology</h4>
+                        <p>“Mind and Hand” is the thought-provoking motto of the Massachusetts Institute of Technology, known also as MIT. This motto enigmatically encapsulates this...</p>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cont">
+                    <div class="item1">
+                        <img src="https://images.pexels.com/photos/207684/pexels-photo-207684.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>University of Cambridge </h4>
+                        <p>The University of Cambridge is rich in history - its famous Colleges and University buildings attract visitors from all over the world...</p>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cont">
+                    <div class="item1">
+                        <img src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>University of Oxford </h4>
+                        <p>The University of Oxford is the oldest university in the English-speaking world, and is actually so ancient that its founding date is unknown... </p> 
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cont">
+                    <div class="item1">
+                        <img src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        <h4>Harvard University </h4>
+                        <p>Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree... </p>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cont">
+                    <div class="item1">
+                        <img src="https://images.pexels.com/photos/227405/pexels-photo-227405.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                        <h4>Stanford University</h4>
+                        <p>Stanford University is a place of discovery, creativity, innovation and world-class medical care. Dedicated to its founding mission of benefiting society through research and education...</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>        
+    </div>
+</section>
+
+     <!-- Mentor and advisor Swiper -->
+<section id="Mentors">
+     <div class="swiper mySwiper" id="Mentor">
+        <div class="swiper-wrapper">
+             <div class="swiper-slide"> <!-- element paste here -->
+                <div class="teams">
+                    <div class="profile"></div>
+                    <div class="pic">
+                        <div class="circle">
+                            <img src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        </div>
+                    </div>
+                    <h2>Eddie Jessup</h2>
+                    <h3>Stanford University</h3>
+                    <div class="ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="handles">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Mentor 2 -->
+            <div class="swiper-slide">
+                <div class=" teams">
+                    <div class="profile"></div>
+                    <div class="pic">
+                        <div class="circle">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        </div>
+                    </div>
+                    <h2>Anne Rice</h2>
+                    <h3>Harvard University</h3>
+                    <div class="ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="handles">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Mentor 3 -->
+            <div class="swiper-slide">
+                <div class=" teams">
+                    <div class="profile"></div>
+                    <div class="pic">
+                        <div class="circle">
+                            <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                        </div>
+                    </div>
+                    <h2>Mary Shelley</h2>
+                    <h3>Massachusetts Institute of Technology</h3>
+                    <div class="ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="handles">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Element 4 -->
+            <div class="swiper-slide">
+                <div class=" teams">
+                    <div class="profile"></div>
+                    <div class="pic">
+                        <div class="circle">
+                            <img src="https://images.pexels.com/photos/3501159/pexels-photo-3501159.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                        </div>
+                    </div>
+                    <h2>R. L. Stine</h2>
+                    <h3>University of Oxford </h3>
+                    <div class="ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="handles">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class=" teams">
+                    <div class="profile"></div>
+                    <div class="pic">
+                        <div class="circle">
+                            <img src="https://images.pexels.com/photos/3772620/pexels-photo-3772620.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                        </div>
+                    </div>
+                    <h2>Germaine Greer</h2>
+                    <h3>University of Cambridge</h3>
+                    <div class="ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                    <div class="handles">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+    <!-- last section -->
+    <section  class = "section" id = "MentorAdvisors">
+        <div class="container2">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="https://www.sciastra.com/teams/dr_omkar.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Dr. Omkar<br> <span>Principal Project Scientist at Indian Institute of Technology, Madras</span></h3>
+                    </div>
+                    <button>Message Now</button>
+                </div>
+                <ul class="sci">
+                    <li><a href=""><i class="ri-facebook-circle-fill"></i></a></li>
+                    <li><a href=""><i class="ri-twitter-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-instagram-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-github-fill"></i></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="https://www.sciastra.com/teams/akhil_tripathi_niser.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Akhil Tripathi <br> <span>Cofounder SciAstra, Mentor, Qualified NEST, Master's Student at NISER</span></h3>
+                    </div>
+                    <button>Message Now</button>
+                </div>
+                <ul class="sci">
+                    <li><a href=""><i class="ri-facebook-circle-fill"></i></a></li>
+                    <li><a href=""><i class="ri-twitter-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-instagram-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-github-fill"></i></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="https://www.sciastra.com/teams/vivek_dwivedi_niser.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Vivek Dwivedi <br> <span>Founder SciAstra, Mentor, Qualified NEST, JEE advanced, Mains, Master's Student at NISER</span></h3>
+                    </div>
+                    <button>Message Now</button>
+                </div>
+                <ul class="sci">
+                    <li><a href=""><i class="ri-facebook-circle-fill"></i></a></li>
+                    <li><a href=""><i class="ri-twitter-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-instagram-fill"></i></i></a></li>
+                    <li><a href=""><i class="ri-github-fill"></i></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<section  class = "section" id="AboutUs">
+<footer class="footer-1" >
+    <div class="foot" id="foo">
+        <div id="ft">ABOUT</div>
+        <div class="about">Contact Us</div>
+        <div class="about">Our Team</div>
+        <div class="about"> Our Courses</div>
+        <div class="about">Free Materials</div>
+    </div>
+    <div class="foot">
+        <div id="ft">SOCIAL</div>
+        <div class="social">Facebook</div>
+        <div class="social">Instagram</div>
+        <div class="social"> YouTube</div>
+        <div class="social">Twitter</div>
+    </div>
+</footer>
+<footer class="footer-2">
+    <div class="foot-1"> &#169; SciAstra</div>
+</footer>
+</section>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper2", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>
